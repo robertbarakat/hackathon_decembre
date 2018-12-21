@@ -1,0 +1,33 @@
+.nav-bar {
+  .navbar-div {
+    background-color: #197996;
+
+      img{
+        height: 30px;
+      }
+    //#41ae9f #b9dfe1 #0d7896
+
+
+    .join {
+      list-style-type: none;
+      a {
+        color: white;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    a {
+      color: white;
+      padding: 0.07rem 0.5rem 0.5rem 0.5rem;
+      &:hover {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    .dropdown-item:hover {
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.EcoSystemEvaluation{
+  padding: 5%;
+
+  .card-element{
+    height: 100%;
+    width: 85%;
+    background-color: #b9dcdb;
+    box-shadow: 1px 1px 7px 7px #e0e0d1;
+    border: none;
+    text-decoration: none;
+  
+    .card-image{
+      padding-top: 5%;
+      width: 40%;
+      margin: auto;
+
+    }
+    .card-truc{
+      padding: 5%;
+      text-align: center;
+      .button-submit{
+        margin: 20px;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        color: white;
+        background-color: #0d7896;
+      }
+      .button-submit:hover{
+        transition: 0.2s;
+        background-color: #41ae9f;
+      }
+    }
+  }
+}

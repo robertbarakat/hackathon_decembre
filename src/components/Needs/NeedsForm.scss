@@ -1,0 +1,85 @@
+$font-one: #41ae9f;
+$font-two: #b9dfe1;
+$font-three: #0d7896;
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+
+.need-form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin : 40px;
+
+  .need-form-title{
+    margin: 20px;
+    color: $font-three;
+  }
+
+  
+
+  .form-container{
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    .title-form{
+      color: $font-three;
+    }
+
+    input{
+      // padding-right : 20px;
+      margin-right: 10px;
+      background-color: $font-three;
+      position: relative;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+    }
+
+    input:focus{
+      color: $font-three;
+    }
+
+    .select-option{
+      width: 230px;
+      border-radius : 5px;
+      margin : 10px;
+      padding: 10px;
+      background-color: $font-three;
+      border:none;
+      color: white;
+      box-shadow: 1px 1px 12px #aaa;
+      outline: none;
+    }
+
+  }
+
+}
+
+.needs-submit{
+  border-radius : 5px;
+  margin : 10px;
+  padding: 20px;
+  background-color: $font-three;
+  border:none;
+  color: white;
+  box-shadow: 1px 1px 12px #aaa;
+  outline: none;
+}
+
+.needs-submit:hover{
+  transition: ease 1s;
+  background-color: $font-one;
+  outline: none;
+}
+.needs-submit:active{
+  transition: ease 1s;
+  background-color: $font-two;
+  outline: none;
+}
